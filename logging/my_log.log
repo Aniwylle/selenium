@@ -1,0 +1,37 @@
+2025-03-26 17:27:50,366 test_env.py INFO info
+2025-03-26 17:27:50,366 test_env.py WARNING warning
+2025-03-26 17:27:50,366 test_env.py ERROR error
+2025-03-26 17:27:50,366 test_env.py CRITICAL critical
+2025-03-26 17:30:21,479 test_env.py INFO info
+2025-03-26 17:30:21,480 test_env.py WARNING warning
+2025-03-26 17:30:21,480 test_env.py ERROR error
+2025-03-26 17:30:21,480 test_env.py CRITICAL critical
+2025-03-26 17:30:21,480 test_env.py INFO yeppie, logger is working
+2025-03-26 17:31:06,957 test_env.py INFO info
+2025-03-26 17:31:06,957 test_env.py WARNING warning
+2025-03-26 17:31:06,957 test_env.py ERROR error
+2025-03-26 17:31:06,957 test_env.py CRITICAL critical
+2025-03-26 17:31:06,957 test_env.py INFO yeppie, logger is working
+2025-03-26 17:31:43,784 test_env.py INFO info
+2025-03-26 17:31:43,784 test_env.py WARNING warning
+2025-03-26 17:31:43,784 test_env.py ERROR error
+2025-03-26 17:31:43,784 test_env.py CRITICAL critical
+2025-03-26 17:31:43,784 test_env.py INFO yeppie, logger is working somewhere
+2025-03-26 17:32:39,355 test_env.py INFO info
+2025-03-26 17:32:39,355 test_env.py WARNING warning
+2025-03-26 17:32:39,355 test_env.py ERROR error
+2025-03-26 17:32:39,355 test_env.py CRITICAL critical
+2025-03-26 17:32:39,355 test_env.py INFO yeppie, logger is working somewhere
+2025-03-26 17:32:39,355 test_env.py ERROR ypsie, error is here
+2025-03-26 17:34:09,907 test_env.py INFO info
+2025-03-26 17:34:09,907 test_env.py WARNING warning
+2025-03-26 17:34:09,907 test_env.py ERROR error
+2025-03-26 17:34:09,907 test_env.py CRITICAL critical
+2025-03-26 17:34:09,908 test_env.py INFO yeppie, logger is working somewhere
+2025-03-26 17:34:09,908 test_env.py ERROR ypsie, error is here
+2025-03-26 17:36:36,883 test_env.py INFO info
+2025-03-26 17:36:36,883 test_env.py WARNING warning
+2025-03-26 17:36:36,883 test_env.py ERROR error
+2025-03-26 17:36:36,883 test_env.py CRITICAL critical
+2025-03-26 17:36:36,884 test_env.py INFO yeppie, logger is working somewhere
+2025-03-26 17:36:36,884 test_env.py ERROR ypsie, error is here

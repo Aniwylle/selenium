@@ -1,0 +1,34 @@
+## занятие 2 тема: поиск элементов 
+# print(browser.find_element(By.ID, "text"))
+# print(browser.find_element(By.CSS_SELECTOR, "#text"))
+# print(browser.find_element(By.XPATH, "//input"))
+# print(browser.find_element(By.NAME, "text"))
+# print(browser.find_element(By.TAG_NAME, "input"))
+# print(browser.find_element(By.CLASS_NAME, "search3__input"))
+# print(browser.find_element(By.LINK_TEXT, "Войти"))
+# print(browser.find_element(By.PARTIAL_LINK_TEXT, "Во"))
+
+# for a in browser.find_elements(By.TAG_NAME, "a"):
+#     print(a)
+
+
+## занятие 4 тема: исполнение js кода 
+browser.execute_script("document.title='МЯУ'; alert(document.title)") 
+browser.execute_script исполняет java.script код, который исполняет внутри себя
+document.title='МЯУ' изменяет название вкладки на МЯУ
+alert(document.title) всплывашка с текстом выше
+
+browser.execute_script("window.scrollBy(0, 100);") 
+window.scrollBy(0, 100); скролит страницу на 100 пикселей по вертикали
+
+browser.execute_script("return arguments[0].scrollIntoView(true);", RuleElement)
+return arguments[0].scrollIntoView(true); скролит страницу до элемента
+
+browser.execute_script("button = document.getElementsByTagName('button')[0];button.scrollIntoView(true)") 
+button = document.getElementsByTagName('button')[0]; поиск элемента в js 
+button.scrollIntoView(true) сразу находит и скролит до него (другое нахождение элемента)
+
+pip freeze > requrments.txt
+#Сохраняет все зависимости в requirements.txt, Нужно делать в виртуальном окружении (Глобально может подтянуть вообще всё)
+pip install -r requrments.txt
+#Скачать все зависимости из requirements.txt
