@@ -4,7 +4,6 @@ from .pages.login_page import LoginPage
 from .pages.basket_page import BasketPage
 from .pages.main_page import MainPage
 
-@pytest.mark.skip
 def test_guest_go_to_login_page(browser):
     url = ("https://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/")
     page = BasePage(browser, url)
@@ -13,7 +12,8 @@ def test_guest_go_to_login_page(browser):
     page.go_to_link_page()
     login_page = LoginPage(browser,browser.current_url)
     login_page.should_be_login_page()
-
+    
+@pytest.mark.skip
 def test_guest_can_see_product_in_basket_opened_from_main_page(browser):
     url = ("https://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/")
     page = MainPage(browser, url)
